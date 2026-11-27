@@ -1,6 +1,6 @@
 # VectorCore & ClothOS Advancements + Research
 
-> **License**: **Free for Personal, Academic, and Evaluation Use** (`BSL-1.1`). **Paid Commercial License Required for Business / Production / SaaS / OEM Use** — see [LICENSE](LICENSE) and [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md).
+> **License**: **Free for Personal, Academic, and Evaluation Use** (`BSL-1.1`). **Paid Commercial License Required for Business / Production / SaaS / OEM Use** — see [LICENSE](LICENSE), [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md), and [UNIFIED_SYSTEMS_ARCHITECTURE.md](UNIFIED_SYSTEMS_ARCHITECTURE.md).
 
 ## Core Engineering Advancements (`advancements/`)
 1. **`torque-gateway-pro/`** — Zero-trust PII/credential scrubbing (`TorqueScrubber` + `RehydrationVault`) and OpenAI/Ollama-compatible hybrid GPU gateway.
