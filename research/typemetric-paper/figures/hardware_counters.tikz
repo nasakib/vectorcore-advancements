@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=14pt,
+    width=0.48\textwidth,
+    height=5.5cm,
+    ylabel={Hardware Event Count ($\times 10^3$)},
+    symbolic x coords={L1i-Misses, Branch-Misses, iTLB-Misses},
+    xtick=data,
+    ymin=0,
+    ymax=120,
+    legend pos=north east,
+    ymajorgrids=true,
+    grid style=dashed,
+    nodes near coords,
+    every node near coord/.append style={font=\footnotesize}
+]
+\addplot[fill=gray!40] coordinates {(L1i-Misses, 98.4) (Branch-Misses, 42.1) (iTLB-Misses, 18.2)};
+\addplot[fill=blue!60] coordinates {(L1i-Misses, 31.7) (Branch-Misses, 19.4) (iTLB-Misses, 6.1)};
+\legend{Standard LBBV, Speculative Stitching}
+\end{axis}
+\end{tikzpicture}

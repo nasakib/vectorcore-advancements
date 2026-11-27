@@ -1,0 +1,4 @@
+[project]
+name = "torque-gateway-pro"
+version = "1.0.0"
+dependencies = ["fastapi", "uvicorn", "cryptography", "httpx", "pydantic"]

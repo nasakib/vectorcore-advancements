@@ -1,0 +1,13 @@
+[package]
+name = "typemetric-yjit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Typemetric Authors"]
+description = "Ruby YJIT adapter for Metric Type-Space k-Center Pruning and Bit-Packed Context State"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"

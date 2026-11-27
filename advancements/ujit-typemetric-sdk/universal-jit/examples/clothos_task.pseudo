@@ -1,0 +1,11 @@
+# ClothOS Distributed Grid Arbitrage Kernel
+fn compute_grid_arbitrage(power_kw: int, tariff_rate: int) -> int {
+    let base_cost = power_kw * tariff_rate
+    let efficiency_factor = 92
+    let net_yield = (base_cost * efficiency_factor) / 100
+    if net_yield > 5000 {
+        return net_yield - 500
+    } else {
+        return net_yield
+    }
+}

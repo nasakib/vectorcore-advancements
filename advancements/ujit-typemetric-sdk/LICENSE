@@ -1,0 +1,22 @@
+Business Source License 1.1 (BSL-1.1) — Free for Personal Use / Paid for Commercial Use
+
+Licensor: Najmos Sakib / VectorCore Holdings
+Licensed Work: Universal-JIT + Typemetric C99 SDK
+
+1. FREE PERSONAL, ACADEMIC & EVALUATION USE:
+   Individuals, students, researchers, and hobbyists may view, clone, run, and
+   modify this software FREE OF CHARGE for personal, educational, or
+   non-commercial evaluation use on a single machine.
+
+2. PAID COMMERCIAL USE:
+   Any business, corporation, government agency, or commercial entity using
+   this software (or any derivative work) in production, internal business
+   workflows, multi-node/multi-GPU clusters, hosted SaaS/API offerings, or
+   redistributed OEM products MUST purchase a valid Commercial License Key
+   (`.lic`, Ed25519-signed) from the Licensor.
+
+3. CHANGE DATE & CHANGE LICENSE:
+   Four (4) years from each release date, the Change License converts to
+   Apache License, Version 2.0.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

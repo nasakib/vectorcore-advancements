@@ -1,0 +1,4 @@
+[project]
+name = "clothos-cad-engine"
+version = "1.0.0"
+dependencies = ["numpy", "cryptography"]

@@ -1,0 +1,10 @@
+bin/
+lib/
+src/*.o
+*.so
+*.a
+*.exe
+*.o
+__pycache__/
+*.pyc
+.DS_Store
